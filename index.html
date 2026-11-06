@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <!-- 설명: 한글이 깨지지 않도록 설정합니다. -->
+  <meta charset="UTF-8">
+
+  <!-- 설명: 모바일 화면 대응을 위한 설정입니다. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>갤러리</title>
+</head>
+
+<body>
+  <!-- 실습 흐름: 갤러리는 같은 구조의 카드가 반복된다는 점을 먼저 설명합니다. -->
+  <header class="gallery-header">
+    <!-- 실습 1: 페이지 제목을 작성합니다. 예: 갤러리 -->
+    <h1 class="page-title">갤러리</h1>
+
+    <!-- 실습 2: 갤러리 소개 문구를 작성합니다. -->
+    <p class="page-desc">다양한 이미지를 카드 형태로 확인해보세요.</p>
+  </header>
+
+  <main>
+    <section class="gallery-section">
+      <!-- 실습 3: 섹션 제목을 작성합니다. 예: 추천 이미지 -->
+      <h2>추천 이미지</h2>
+
+      <!-- 여러 개의 카드를 넣을 공간 -->
+      <div class="gallery-list">
+
+        <!-- 설명: article은 카드 하나처럼 독립적인 콘텐츠를 표현할 때 사용합니다. -->
+        <article class="card">
+          <!-- 실습 4: alt에는 이미지가 무엇인지 설명하는 문구를 작성합니다. -->
+          <img
+            src="https://img1.kakaocdn.net/thumb/R1280x0.fwebp/?fname=http://t1.daumcdn.net/brunch/service/user/bMVL/image/xDm8gWeJm59820pSnETyg6Z46VE.jpeg"
+            alt="사진1" class="card-img">
+
+          <!-- 실습 5: 카드 제목을 작성합니다. -->
+          <h3 class="card-title">에펠탑</h3>
+
+          <!-- 실습 6: 카드 설명 문장을 작성합니다. -->
+          <p class="card-desc">파리 프랑스</p>
+
+          <button class="card-btn" type="button">자세히 보기</button>
+        </article>
+
+        <!-- 설명: article은 카드 하나처럼 독립적인 콘텐츠를 표현할 때 사용합니다. -->
+        <article class="card">
+          <!-- 실습 4: alt에는 이미지가 무엇인지 설명하는 문구를 작성합니다. -->
+          <img
+            src="https://img1.kakaocdn.net/thumb/R1280x0.fjpg/?fname=http://t1.kakaocdn.net/brunch/service/user/gkzE/image/Yai1-FKqlQmlaSj_FH58_RAWAIs.jpg"
+            alt="사진1" class="card-img">
+
+          <!-- 실습 5: 카드 제목을 작성합니다. -->
+          <h3 class="card-title">마테호른</h3>
+
+          <!-- 실습 6: 카드 설명 문장을 작성합니다. -->
+          <p class="card-desc">체르마트 스위스</p>
+
+          <button class="card-btn" type="button">자세히 보기</button>
+        </article>
+
+        <!-- 설명: article은 카드 하나처럼 독립적인 콘텐츠를 표현할 때 사용합니다. -->
+        <article class="card">
+          <!-- 실습 4: alt에는 이미지가 무엇인지 설명하는 문구를 작성합니다. -->
+          <img src="https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/7a1a4491-9caa-4d83-adee-5e769483bcc8.jpeg
+" alt="사진1" class="card-img">
+
+          <!-- 실습 5: 카드 제목을 작성합니다. -->
+          <h3 class="card-title">동 루이스 1세 다리</h3>
+
+          <!-- 실습 6: 카드 설명 문장을 작성합니다. -->
+          <p class="card-desc">포르투 포르투갈</p>
+
+          <button class="card-btn" type="button">자세히 보기</button>
+        </article>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <!-- 실습 8: 페이지 하단 문구를 작성합니다. -->
+    <p><!-- 푸터 문구 --></p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
